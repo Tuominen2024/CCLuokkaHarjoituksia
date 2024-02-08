@@ -30,23 +30,22 @@ Luokka voi periä toiselta luokalta kenttiä ja metodeja. Luokkaa, jonka ominais
       )
   )
   '''
-Tehtävä1
-Rakenna koiranomistajalle perivä luokka ja sille ylikirjoittava SayOpinion-metodi
+
+
+## Tehtävä 1. Rakenna koiranomistajalle perivä luokka ja sille ylikirjoittava SayOpinion-metodi
 
 // Create a new dog owner and call SayOpinion method
 DogOwner dogOwner = new DogOwner();
 dogOwner.SayOpinion();
 Perinteisesti metodin ylikirjoittaminen aliluokassa on määritelty käyttämällä komentoja virtualja override:
 
-Tehtävä 2
-Tee yliluokka Pet ja sille aliluokka Hare. Määrittele metodi Eats, joka tulostaa ruudulle eläimen ruokavalion. Pet-luokassa tyyliin "Syö ruokaa" ja aliluokassa "Syö porkkanoita". Käytä perinteistä määrittelyä virtuaaliseksi metodiksi ja ylikirjoitettavaksi metodiksi.
+## Tehtävä 2. Tee yliluokka Pet ja sille aliluokka Hare. Määrittele metodi Eats, joka tulostaa ruudulle eläimen ruokavalion. Pet-luokassa tyyliin "Syö ruokaa" ja aliluokassa "Syö porkkanoita". Käytä perinteistä määrittelyä virtuaaliseksi metodiksi ja ylikirjoitettavaksi metodiksi.
 
-Tehtävä 3
-Luo uusi sovellus (solution) ja projekti. Asetukset C#, Windows-alustalle ja Console-sovellustyypiksi. Sovelluksen avulla kerätään tietoa tietoteknisistä laitteista. Kaikille laitteille yhteisiä ominaisuuksia ovat:
+## Tehtävä 3. Luo uusi sovellus (solution) ja projekti. Asetukset C#, Windows-alustalle ja Console-sovellustyypiksi. Sovelluksen avulla kerätään tietoa tietoteknisistä laitteista. Kaikille laitteille yhteisiä ominaisuuksia ovat:
 
 Hankintapäivä (string)
 Hankintahinta (double)
 Takuuaika kuukausina (int)
 Kiinostuksen kohteena ovat tietokoneet, puhelimet ja tabletit. Rakenna näille luokkamääritykset ja periytä yhteiset ominaisuudet yliluokasta. Muista kommentoida koodia. Mieti mitä metodeja tarvittaisiin esim. jäljellä olevan takuuajan selvittämiseksi. Mieti mitä eroja tietokoneilla ja muilla laitetyypeillä on. Tee tietokoneille, puhelimille ja tableteille omat luokat ja mieti, mitä kenttiä aliluokissa pitäisi olla.
 
-Tee tätä tehtävää varten oma Github-repositorio Laiterekisteri. Ota se käyttöön Visual Studiossa, jotta voit versioida kirjoittamaasi koodia.
+# Tee tätä tehtävää varten oma Github-repositorio Laiterekisteri. Ota se käyttöön Visual Studiossa, jotta voit versioida kirjoittamaasi koodia.
